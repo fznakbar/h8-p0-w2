@@ -1,0 +1,80 @@
+//NUMBER 1
+/*
+var f;
+var m = 600;
+var a = 2;
+f = m * a;
+console.log(f + " NEWTON");
+*/
+// DECLARE VARIABLE 'f' AS RESULT VARIABLE, WITHOUT ANY VALUE
+// DECLARE VARIABLE 'm' AS MASS VARIABLE, FILLED WITH 600 (KG) AS WE WANT TO COMPUTE
+// DECLARE VARIABLE 'A' AS ACCELERATION, FILLED WITH 2 (M/S2)
+// COMPUTE RESULT : 'm' MULTIPLE BY 'a' . STORED AS 'f'
+// DISPLAY 'f' AS THE RESULT. ADD IT WITH STRING "NEWTON"
+
+
+//NUMBER 2
+/*
+var year = 2020;
+if (year % 4 == 0 && year % 100 != 0) {
+    console.log(year + ' Tahun Kabisat')
+} else if (year % 4 == 0 && year % 100 == 0 && year % 400 == 0) {
+    console.log(year + ' Tahun kabisat')
+} else {
+    console.log(year + ' Bukan tahun kabisat')
+}
+/*
+// DECLARE VARIABLE 'year' . VALUE IS YEAR THAT WE WILL TO FIND OUT
+// MAKE 3 CONDITIONAL
+// FIRST, IF WE MODULAR THE 'year' BY 4 IS EQUAL TO 0 AND 'year' MODULAR BY 100 IS NOT EQUAL TO ZERO, THEN
+// DISPLAY 'year' are Tahun Kabisat
+// SECOND, IF WE MODULAR THE 'year' BY 4 IS EQUAL TO 0 AND 'year' MODULAR BY 100 IS EQUAL TO ZERO AND 'year' MODULAR BY 400 IS EQUAL TO ZERO, THEN
+// DISPLAY 'year' are Tahun Kabisat
+// THIRD, IF THE RESULT IS NOT BETWEEN TWO CONDITION AS WE MENTIONED ABOVE, THEN
+// DISPLAY 'year' are Bukan Tahun Kabisat
+*/
+
+
+//NUMBER 3
+/*
+var baju = 1;
+for (baju = 1; baju <= 20; baju++) {
+    console.log('Baju yang dimasukkan ' + baju)
+}
+console.log('Silahkan memulai mesin cuci.')
+*/
+
+// DECLARE VARIABLE 'baju' FOR STORING NUMBER OF SHIRT, VALUE IS 1
+// WE MAKE A REPETITION FOR COUNTING 1 TO 20
+// MAKE A CONDIION FOR REPETITION, WHEN SHIRT IS ONE, AND SHIRT IS LESS EQUAL THEN 20, 'baju' VALUE NEED TO ADDED BY ONE.
+// DISPLAY ONE BY ONE FOR THE COUNTING WITH ADDED STRING 'Baju yang dimasukkan'
+// WHEN TOTAL OF 'baju' IS 20, WE STOP THE COUNTING, THEN
+// DISPLAY 'Silahkan memulai mencuci' 
+
+//NUMBER 4
+/*
+var siswa = 0
+var murid = null
+do {
+    murid = Math.floor(Math.random() * 40 + 1)
+    if (murid % 2 == 0) {
+        console.log('Guru akan menghukum murid')
+        siswa += 1
+    } else {
+        console.log('Guru akan memuji murid')
+        siswa += 1
+    }
+}
+while (siswa <= 40);
+*/
+
+// DECLARE VARIABLE 'siswa' FOR COUNTING 40 STUDENT, VALUE WITH 0
+// DECLARE VARIABLE 'murid' FOR MAKE A RANDOM NUMBER AS WE WANT TO ASSUME ODD NUMBER IS 'kuku panjang' AND EVEN NUMBER IS 'kuku pendek'
+// WE MAKE RANDOM NUMBER BETWEEN 0 TO 40
+// IF THE NUMBER IS EVEN
+// DISPLAY 'Guru akan menghukum murid'
+// ADD 'siswa' 1 VALUE, SO 'siswa' WILL CONTINUE TO 40
+// IF THE NUMBER IS ODD
+// DISPLAY 'Guru akan memuji murid
+// ADD 'siswa' 1 VALUE, SO 'siswa' WILL CONTINUE TO 40
+// DO THE COMPUTATION UNTIL SISWA REACH VALUE TO 40
